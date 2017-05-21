@@ -1,5 +1,5 @@
 # -html-
-# Нужно 
+# Нужно :
 1. https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo - Tampermonkey 
 2. https://www.freeformatter.com/javascript-escape.html Сервис для того чтобы изменить код html в более удобный формат (строки)
 
