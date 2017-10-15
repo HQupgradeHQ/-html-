@@ -8,10 +8,9 @@
 // @grant        none
 // ==/UserScript==
 
-//var div = document.getElementById('answers-header');div.textContent = 'Любая хуйня';
+//var div = document.getElementById('answers-header');div.textContent = 'anything';
 var div = document.getElementsByClassName('vote')[0]; div.innerHTML= "<div class=\"vote\">\r\n        <input type=\"hidden\" name=\"_id_\" value=\"1155353\">\r\n        <a class=\"vote-up-off\" title=\"This question shows research effort; it is useful and clear\">up vote<\/a>\r\n        <span itemprop=\"upvoteCount\" class=\"vote-count-post \">200<\/span>\r\n        <a class=\"vote-down-off\" title=\"This question does not show any research effort; it is unclear or not useful\">down vote<\/a>\r\n\r\n        <a class=\"star-off\" href=\"#\">favorite<\/a>\r\n        <div class=\"favoritecount\"><b>1<\/b><\/div>\r\n\r\n\r\n<\/div>";
-// советы Greezlu  с твича 
-// [0] отвчает за позицию этого элемента в странице 
-// что бы найти по классу нужно воспользоватьсяvar div = document.getElementsByClassName('CLASS')[0];
-//используй textContent вместо innerHTML для изменения содержимого div
+//  [0] Is responsible for element position in page
+//  to find by class you need use  div = document.getElementsByClassName('CLASS')[0];
+// usetextContent instead innerHTML to change content in div
 // то что ты написал, найдёт div с id='id' и внутри него создаст новый
