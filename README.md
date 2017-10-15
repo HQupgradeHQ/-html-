@@ -1,7 +1,6 @@
-# -html-
-# Нужно :
+# F12 forever
 1. https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo - Tampermonkey 
-2. https://www.freeformatter.com/javascript-escape.html Сервис для того чтобы изменить код html в более удобный формат (строки)
-
-раньше я пытался менять через id div элемента( из-за отстуствий знаний по JavaScript ) но узнав про getelement by class (не точная формулировка ) научился менять конкретный элемент . Прошу обратить внимание на var div = document.getElementsByClassName('vote')[0];
-[0] первый блок , [1] второй , и т д. 
+2. https://www.freeformatter.com/javascript-escape.html 
+If you wanna change page on ur side forever , you need to do research about "getelement by class" 
+Attention to var div = document.getElementsByClassName('vote')[0]; 
+[0] for 1 block, [1] for 2 etc.
